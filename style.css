@@ -64,6 +64,7 @@ img {
 header, nav a{
   color:white;
 }
+/* End of CSS RESET */
 
 /* hamburger icon */
 .menu-icon{
@@ -78,13 +79,33 @@ header, nav a{
   margin:6px 0;
   transition: 0.4s;
 }
-.change .bar1{
-  transform: translate(0, 11px) rotate(-45deg);
-}
-.change .bar2{
-  opacity: 0;
-}
-.change .bar3{
-  transform: translate(0, -11px) rotate(45deg);
-}
 /* end of hamburger icon */
+
+/* when icon is small, don't show nav links */
+
+@media screen and (width < 768px) {
+  div.menu {
+    display: revert;
+    height:0;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    margin-left:-4px;
+    background: #818181;
+    transition: height 0.8s ease-in-out;
+  }
+  div.menu nav {
+    margin:3rem;
+    font-size: 2rem;
+  }
+  .close-icon {
+    position: absolute;
+    right: 16px;
+    top:-10px;
+    background: transparent;
+    font-size: 3rem;
+    border: none;
+    color: white;
+  }
+}

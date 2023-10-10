@@ -29,13 +29,32 @@
   <body>
     <header class="d-flex justify-content-between p-1 bg-info">
       <h1 class="pt-1">Full Stack Web Developer</h1>
-      
+
       <!-- Menu of Small Size -->
+      <div class="menu d-sm-none">
+        <button class="close-icon">&times;</button>
+        <nav>
+          <ul>
+            <a href="#landing">Landing</a>
+          </ul>
+          <ul>
+            <a href="#projects">Project</a>
+          </ul>
+          <ul>
+            <a href="#contact">Contact</a>
+          </ul>
+          <ul>
+            <a href="#tools">Tools</a>
+          </ul>
+        </nav>
+      </div>
       <div class="menu-icon d-md-none">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
+        
       </div>
+      <!-- End of Small Size -->
 
       <nav class="d-flex d-none d-md-flex pt-3">
         <ul>
@@ -71,15 +90,11 @@
       <section id="projects">
         <!-- show all projects here from github -->
       </section>
-      <section id="contact">
-
-      </section>
+      <section id="contact"></section>
       <section id="tools"></section>
     </main>
     <footer id="footer">
-        <p>
-          Mentored by: Carlo Corcuera @2023 
-        </p>
+      <p>Mentored by: Carlo Corcuera @2023</p>
     </footer>
     <!-- Boostrap Script -->
     <script
