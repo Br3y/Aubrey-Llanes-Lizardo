@@ -1,7 +1,62 @@
+/* Reset margin and padding to 0 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Remove list styles from unordered and ordered lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove text decoration from links */
+a {
+  text-decoration: none;
+}
+
+/* Set a consistent baseline for typography */
+body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Reset heading margins for consistent spacing */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Reset form elements for consistent styling */
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Additional resets or styles can be added as needed */
+
+/* Example: Remove default button styling */
+button {
+  background: none;
+  cursor: pointer;
+}
+
+/* Example: Reset image border and alignment */
+img {
+  border: 0;
+  vertical-align: middle;
 }
