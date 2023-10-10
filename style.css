@@ -66,6 +66,12 @@ header, nav a{
 }
 /* End of CSS RESET */
 
+/* Boostrap Custome Styling */
+.text-justify{
+  text-align:justify;
+}
+
+/* end of Bootstrap Custom Styling */
 /* hamburger icon */
 .menu-icon{
   display:inline-block;
@@ -109,3 +115,7 @@ header, nav a{
     color: white;
   }
 }
+/* end of navbar hamburger icon when click */
+
+/* landing page */
+/* end of landing page */
