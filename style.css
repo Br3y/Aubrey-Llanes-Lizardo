@@ -97,7 +97,7 @@ header, nav a{
 
 /* when icon is small, don't show nav links */
 
-@media screen and (width < 576px) {
+@media screen and (width < 768px) {
   div.menu {
     display: revert;
     height:0;
