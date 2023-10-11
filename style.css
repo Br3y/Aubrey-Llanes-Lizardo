@@ -72,6 +72,11 @@ header, nav a{
 }
 
 /* end of Bootstrap Custom Styling */
+
+/* navbar */
+#header{
+  background-color: #888888;
+}
 /* hamburger icon */
 .menu-icon{
   display:inline-block;
@@ -89,7 +94,7 @@ header, nav a{
 
 /* when icon is small, don't show nav links */
 
-@media screen and (width < 768px) {
+@media screen and (width < 576px) {
   div.menu {
     display: revert;
     height:0;
@@ -97,7 +102,7 @@ header, nav a{
     overflow: hidden;
     position: fixed;
     top: 0px;
-    margin-left:-4px;
+    margin-left:-15px;
     background: #818181;
     transition: height 0.8s ease-in-out;
   }
@@ -118,4 +123,5 @@ header, nav a{
 /* end of navbar hamburger icon when click */
 
 /* landing page */
+
 /* end of landing page */
