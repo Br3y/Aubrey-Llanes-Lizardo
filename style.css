@@ -133,3 +133,14 @@ header, nav a{
 #tools img{
   width:50%;
 }
+
+#projects img{
+  width:100%;
+  border-radius: 6px;
+}
+#projects h3{
+  text-align: center;
+}
+#projects p{
+  text-align:justify;
+}
