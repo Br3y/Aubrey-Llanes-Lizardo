@@ -105,7 +105,7 @@ header, nav a{
     overflow: hidden;
     position: fixed;
     top: 0px;
-    margin-left:-15px;
+    margin-left:-4px;
     background: #818181;
     transition: height 0.8s ease-in-out;
   }
@@ -143,4 +143,11 @@ header, nav a{
 }
 #projects p{
   text-align:justify;
+}
+
+#projects h3, #projects p{
+  color:white;
+}
+#footer img{
+  width:25px;
 }

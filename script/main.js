@@ -15,4 +15,3 @@ function addClickToMenuItems() {
     const menuItems = document.querySelectorAll("div.menu nav ul>li");
     menuItems.forEach((menuItem) => menuItem.addEventListener("click", closeMenu));
 }
-
