@@ -27,7 +27,7 @@
     <title>Aubrey Developers Portfolio</title>
   </head>
   <body>
-    <header id="header" class="d-flex justify-content-between p-1 px-1 px-md-5">
+    <header id="header" class="d-flex justify-content-between p-1 px-1 px-md-5 sticky-top">
       <h1 class="pt-md-2 pt-lg-2">Capstone-1</h1>
 
       <!-- Menu of Small Size -->
@@ -72,7 +72,7 @@
     </header>
 
     <main id="main-container">
-      <section id="landing" class="row my-5 container m-auto my-5 pt-5">
+      <section id="landing" class="row container m-auto my-5 py-5">
         <div class="col-sm-12 col-md-9 col-lg-4 m-auto text-center">
           <img
             src="images/unnamed.png"
@@ -136,7 +136,7 @@
         <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
           <a href="https://br3y.github.io/odin-landing-page/" target="_blank">
             <img src="./images/landing-page.png" alt="landing page" />
-            <h3>Simple Landing Page</h3>
+            <h3>Landing Page</h3>
           </a>
           <p>
             A landing page is a specific web page that is designed with a
@@ -152,7 +152,7 @@
               src="./images/rock-paper-scissor.png"
               alt="rock paper scissor"
             />
-            <h3>Rock Paper Scissor Game</h3>
+            <h3>Rock Paper Scissor</h3>
           </a>
           <p>
             Rock paper scissors (also known by other orderings of the three
@@ -202,7 +202,7 @@
           <img src="./images/css_master.svg" alt="css image" />
           <h3 class="my-3">CSS - Cascading Style Sheet</h3>
           <p class="text-justify">
-            TCascading Style Sheets (CSS) is a stylesheet language used to
+            Cascading Style Sheets (CSS) is a stylesheet language used to
             describe the presentation of a document written in HTML or XML
             (including XML dialects such as SVG, MathML or XHTML). CSS describes
             how elements should be rendered on screen, on paper, in speech, or
@@ -221,22 +221,46 @@
         </div>
       </section>
 
-      <section id="contact" class="my-5 bg-dark d-flex">
-        <div>
+      <section id="contact" class="my-5 bg-dark mx-0 row">
+        <div class="col-12 text-center my-5">
           <h2 class="text-white">CONTACT</h2>
         </div>
-        <div class="col-md-6 p-5">
+        <div class="col-lg-6 mb-5">
           <iframe
+            class=""
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.777980551634!2d121.13781692325662!3d14.168536969551761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd650ae2b31259%3A0xb3d40ba7ededd177!2sA%26A%20Food%20House!5e0!3m2!1sen!2sph!4v1697012074870!5m2!1sen!2sph"
-            width="99%"
-            height="99%"
-            allowfullscreen=""
+            width="100%"
+            height="100%"
+            allowfullscreen="yes"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div>
-          
+        <div class="col-lg-6 mb-5 text-white">
+          <form action="./index.html" class="bg-secondary px-5 py-3 mx-2 rounded-1">
+            <div class="form-group my-3">
+              <label for="firstName">First Name</label>
+              <input type="email" class="form-control" name="firstName" id="firstName" placeholder="enter first name">
+            </div>
+            <div class="form-group my-3">
+              <label for="lastName">Last Name</label>
+              <input type="email" class="form-control" name="lastName" id="lastName" placeholder="enter last name">
+            </div>
+            <div class="form-group my-3">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="enter email">
+            </div>
+            <div class="form-group my-3">
+              <label for="number">Phone Number</label>
+              <input type="number" class="form-control" name="number" id="number" placeholder="enter phone number">
+            </div>
+            <div class="form-group my-3">
+              <label for="message">Message</label>
+              <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary my-3">Submit</button>
+          </form>
         </div>
       </section>
     </main>

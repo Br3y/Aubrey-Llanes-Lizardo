@@ -122,6 +122,7 @@ header, nav a{
     border: none;
     color: white;
   }
+  
 }
 /* end of navbar hamburger icon when click */
 
@@ -139,7 +140,7 @@ header, nav a{
   border-radius: 6px;
 }
 #projects h3{
-  margin:1rem 0 3rem 0;
+  margin:1rem 0 2rem 0;
   text-align: center;
 }
 #projects p{
@@ -172,4 +173,14 @@ body img:hover{
   -webkit-line-clamp: 4;
   line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+#contact form label{
+  font-size:1.3em;
+} 
+
+@media screen and (width < 992px) {
+  iframe{
+    height:50vh;
+  }
 }

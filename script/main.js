@@ -8,10 +8,12 @@ const closeHamburger = document.querySelector(".close-icon");
 closeHamburger.addEventListener("click", (event) => {
     const menu = document.querySelector("div.menu");
     menu.style.height = "0%";
-    addClickToMenuItems();
 })
 
-function addClickToMenuItems() {
-    const menuItems = document.querySelectorAll("div.menu nav ul>li");
-    menuItems.forEach((menuItem) => menuItem.addEventListener("click", closeMenu));
-}
+// function addClickToMenuItems() {
+const menuItems = document.querySelectorAll("div.menu nav ul>li");
+menuItems.forEach((menuItem) => menuItem.addEventListener("click", ()=>{
+    const menu = document.querySelector("div.menu");
+    menu.style.height = "0%";
+}));
+
