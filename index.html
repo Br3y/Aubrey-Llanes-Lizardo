@@ -27,11 +27,8 @@
     <title>Aubrey Developers Portfolio</title>
   </head>
   <body>
-    <header
-      id="header"
-      class="d-flex justify-content-between p-1 px-1 px-md-5 sticky-top"
-    >
-      <h1 class="pt-md-2 pt-lg-1">Dev Portfolio</h1>
+    <header id="header" class="d-flex justify-content-between p-1 px-1 px-md-5">
+      <h1 class="pt-md-2 pt-lg-2">Capstone-1</h1>
 
       <!-- Menu of Small Size -->
       <div class="menu d-sm-none">
@@ -112,6 +109,7 @@
         </div>
       </section>
       <section id="projects" class="bg-dark row container-fluid p-5 mx-0 my-5">
+        <h2 class="text-white text-center mb-5">PROJECTS</h2>
         <div class="col-sm-12 col-md-6 col-lg-3 pt-3 row-lg">
           <a
             href="https://br3y.github.io/odin-recipes/"
@@ -186,11 +184,13 @@
           </p>
         </div>
       </section>
-      <section id="tools" class="row m-5">
+      <section id="tools" class="row m-5 text-center">
+        <h2 class="text-dark text-center mb-5">TOOLS</h2>
+
         <div id="html5" class="col-sm-12 col-md-6 col-lg-4">
           <img src="./images/html_master.svg" alt="html image" />
-          <h3>HTML5 - HyperText Markup Language</h3>
-          <p>
+          <h3 class="my-3">HTML - Markup Language</h3>
+          <p class="text-justify">
             The HyperText Markup Language or HTML is the standard markup
             language for documents designed to be displayed in a web browser. It
             defines the meaning and structure of web content. It is often
@@ -200,8 +200,8 @@
         </div>
         <div id="css3" class="col-sm-12 col-md-6 col-lg-4">
           <img src="./images/css_master.svg" alt="css image" />
-          <h3>CSS - Cascading Style Sheet</h3>
-          <p>
+          <h3 class="my-3">CSS - Cascading Style Sheet</h3>
+          <p class="text-justify">
             TCascading Style Sheets (CSS) is a stylesheet language used to
             describe the presentation of a document written in HTML or XML
             (including XML dialects such as SVG, MathML or XHTML). CSS describes
@@ -209,10 +209,10 @@
             on other media.
           </p>
         </div>
-        <div id="bootstrap" class="col-sm-12 col-md-6 col-lg-4">
+        <div id="bootstrap" class="col-sm-12 col-md-6 col-lg-4 m-auto">
           <img src="./images/bootstrap_master.svg" alt="bootstrap image" />
-          <h3>Boostrap - CSS Framework</h3>
-          <p>
+          <h3 class="my-3">Boostrap - CSS Framework</h3>
+          <p class="text-justify">
             Bootstrap is a free and open-source CSS framework directed at
             responsive, mobile-first front-end web development. It contains
             HTML, CSS and JavaScript-based design templates for typography,
@@ -221,116 +221,22 @@
         </div>
       </section>
 
-      <section id="contact">
-        <div id="contact-section" class="bg-dark p-5 container-fluid">
-          <h2 class="text-white text-center">Contact Me</h2>
-          <div class="row my-5 justify-content-center text-white">
-            <div class="bg-primary col-12 col-md-8 col-xl-10 p-5">
-              <form id="form-col" class="">
-                <label for="name">Name:</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  class="form-control"
-                  placeholder="Your Name"
-                  required
-                /><br /><br />
-
-                <label for="email">Email address:</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="form-control"
-                  placeholder="Your Email"
-                  required
-                /><br /><br />
-
-                <label for="contactnum">Contact Number:</label>
-                <input
-                  type="number"
-                  id="contactnum"
-                  name="contactnum"
-                  class="form-control"
-                  placeholder="Contact Number"
-                  required
-                /><br /><br />
-
-                <label for="concern">Concern:</label>
-
-                <select class="form-control" id="concern">
-                  <option value="General">General</option>
-                  <option value="Support">Support</option>
-                  <option value="Feedback">Feedback</option>
-                </select>
-                <br /><br />
-
-                <label for="message">Message:</label><br />
-                <textarea
-                  id="message"
-                  name="message"
-                  class="form-control"
-                  rows="4"
-                  placeholder="Your Mesage"
-                  required
-                ></textarea
-                ><br /><br />
-
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn btn-primary bg-dark text-white"
-                  data-toggle="modal"
-                  data-target="#modalDiv"
-                >
-                  Send Email
-                </button>
-
-                <!-- Modal -->
-                <div
-                  class="modal fade"
-                  id="modalDiv"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5
-                          class="modal-title text-dark"
-                          id="exampleModalLabel"
-                        >
-                          Thank you for contacting us
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body text-dark">
-                        Message Successfully Sent
-                      </div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+      <section id="contact" class="my-5 bg-dark d-flex">
+        <div>
+          <h2 class="text-white">CONTACT</h2>
+        </div>
+        <div class="col-md-6 p-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.777980551634!2d121.13781692325662!3d14.168536969551761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd650ae2b31259%3A0xb3d40ba7ededd177!2sA%26A%20Food%20House!5e0!3m2!1sen!2sph!4v1697012074870!5m2!1sen!2sph"
+            width="99%"
+            height="99%"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div>
+          
         </div>
       </section>
     </main>

@@ -139,6 +139,7 @@ header, nav a{
   border-radius: 6px;
 }
 #projects h3{
+  margin:1rem 0 3rem 0;
   text-align: center;
 }
 #projects p{
@@ -150,4 +151,25 @@ header, nav a{
 }
 #footer img{
   width:25px;
+}
+body img:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+#header a{
+  font-weight: bolder;
+}
+#header a:hover{
+  color:aqua;
+  font-size: 1.1em;
+}
+
+
+#projects p{
+  overflow: hidden;
+  display: -webkit-box;
+  /* display 2 lines only */
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
