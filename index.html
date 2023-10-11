@@ -27,7 +27,10 @@
     <title>Aubrey Developers Portfolio</title>
   </head>
   <body>
-    <header id="header" class="d-flex justify-content-between p-1 px-3 px-md-5 sticky-top">
+    <header
+      id="header"
+      class="d-flex justify-content-between p-1 px-3 px-md-5 sticky-top"
+    >
       <h1 class="pt-md-2 pt-lg-1">Dev Portfolio</h1>
 
       <!-- Menu of Small Size -->
@@ -72,7 +75,6 @@
     </header>
 
     <main id="main-container">
-
       <section id="landing" class="row my-5 container m-auto">
         <div class="col-sm-12 col-md-9 col-lg-4 m-auto text-center">
           <img
@@ -83,7 +85,7 @@
           <h2 class="mt-3">Aubrey Llanes Lizardo</h2>
           <p class="mt-2 mb-3">Full Stack Web Developer</p>
         </div>
-        <div class="col-sm-12 col-lg-8 m-auto lh-lg">
+        <div class="col-sm-12 col-lg-8 m-auto">
           <p class="text-justify">
             I am actively seeking a career opportunity where I can immerse
             myself in the world of Full Stack Web Development, continually
@@ -110,14 +112,49 @@
         </div>
       </section>
 
-      <section id="tools">
-        <div id="html5"></div>
-        <div id="css3"></div>
-        <div id="bootstrap"></div>
+      <section id="tools" class="row m-5">
+        <div id="html5" class="col-sm-12 col-md-6 col-lg-4 ">
+          <a href="#" target="_blank" class="text-center img-thumbnail">
+            <img src="./images/html_master.svg" alt="html image" />
+            <h3>HTML5 - HyperText Markup Language</h3>
+            <p>
+              The HyperText Markup Language or HTML is the standard markup
+              language for documents designed to be displayed in a web browser.
+              It defines the meaning and structure of web content. It is often
+              assisted by technologies such as Cascading Style Sheets and
+              scripting languages such as JavaScript.
+            </p>
+          </a>
+        </div>
+        <div id="css3" class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#" target="_blank" class="text-center img-thumbnail">
+            <img src="./images/css_master.svg" alt="css image" />
+            <h3>CSS - Cascading Style Sheet</h3>
+            <p>
+              TCascading Style Sheets (CSS) is a stylesheet language used to
+              describe the presentation of a document written in HTML or XML
+              (including XML dialects such as SVG, MathML or XHTML). CSS
+              describes how elements should be rendered on screen, on paper, in
+              speech, or on other media.
+            </p>
+          </a>
+        </div>
+        <div id="bootstrap" class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#" target="_blank" class="text-center img-thumbnail">
+            <img src="./images/bootstrap_master.svg" alt="bootstrap image" />
+            <h3>Boostrap - CSS Framework</h3>
+            <p>
+              Bootstrap is a free and open-source CSS framework directed at
+              responsive, mobile-first front-end web development. It contains
+              HTML, CSS and JavaScript-based design templates for typography,
+              forms, buttons, navigation, and other interface components.
+            </p>
+          </a>
+        </div>
       </section>
+
       <section id="projects"></section>
       <section id="contact"></section>
-
     </main>
     <footer id="footer">
       <p>Mentored by: Carlo Corcuera @2023</p>

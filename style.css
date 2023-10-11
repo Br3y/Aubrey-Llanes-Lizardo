@@ -21,7 +21,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 /* Reset heading margins for consistent spacing */
@@ -71,6 +71,9 @@ header, nav a{
   text-align:justify;
 }
 
+.m-6{
+  margin:6rem !important;
+}
 /* end of Bootstrap Custom Styling */
 
 /* navbar */
@@ -125,3 +128,8 @@ header, nav a{
 /* landing page */
 
 /* end of landing page */
+
+/* tools */
+#tools img{
+  width:50%;
+}
