@@ -62,7 +62,8 @@ img {
 }
 
 header, nav a{
-  color:white;
+  color:black;
+  box-shadow: #333;
 }
 /* End of CSS RESET */
 
@@ -78,7 +79,7 @@ header, nav a{
 
 /* navbar */
 #header{
-  background-color: #888888;
+  background-color: rgba(136, 136, 136, 0.7);
 }
 /* hamburger icon */
 .menu-icon{
