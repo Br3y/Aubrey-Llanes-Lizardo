@@ -134,7 +134,9 @@ header, nav a{
 #tools img{
   width:50%;
 }
-
+#tools div{
+  margin:2rem 0;
+}
 #projects img{
   width:100%;
   border-radius: 6px;
