@@ -1,2 +1,3 @@
-# web-portfolio
-capstone-1 - frontend project for zuitt bootcamp
+# My Personal Portfolio
+
+- this will be my personal portfolio
