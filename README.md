@@ -1,3 +1,7 @@
 # Web Portfolio
 
-- Capstone-1 Project ( Zuitt )
+- Frontend
+- Capstone-1 Project
+- Zuitt Session 16 & 17
+  
+* Develop using HTML, CSS, BOOTSTRAP AND JAVASCRIPT
