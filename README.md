@@ -1,3 +1,3 @@
-# My Personal Portfolio
+# Web Portfolio
 
-- this will be my personal portfolio
+- Capstone-1 Project ( Zuitt )
